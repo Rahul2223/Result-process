@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Result processing system</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	 <link rel="stylesheet" type="text/css" href="app.css">
+  <title>Result processing system</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+   <link rel="stylesheet" type="text/css" href="log.css"> 
 </head>
 <body>
    <nav class="navbar navbar-default">
@@ -22,34 +22,48 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>     
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>     
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login.html">Login</a></li>
        <li><a href="register.html">Register</a></li>
-      
+       <li><a href="teacher.html">Teacher</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<div class="container">
-	<div class="row">
-	    <div class="col-lg-12">
-	    <div id="content">
-	       <h1>Result Process</h1>	
-	    </div>
-	    	
-	    </div>	
-	</div>
-</div>
-<<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<div id="wrapper">
+<div class="overley"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+  <ul class="nav sidebar-nav">
+    <li class="sidebar-teacher">
+    <a href="#">
+      Teacher
+    </a>  
+    </li>
+    <li>
+      <a href="#">Student</a>
+    </li>
+    <li>
+      <a href="#">Marks</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle"> <span class="caret"></span></a>
+    </li>
+  </ul>
+</nav>  
+  </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript"src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-	
+  
 </script>
 </body>
 </html>
