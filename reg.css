@@ -1,8 +1,9 @@
 body{
-	background: url(https://bronxclimatejusticenorth.files.wordpress.com/2015/06/books.jpg);
+	/*background: url(https://bronxclimatejusticenorth.files.wordpress.com/2015/06/books.jpg);
     background-size: cover;
     background-position:center;  
-    color: purple;
+    color: purple; */
+    background: linear-gradient(black, white);
 }
 html{
 	height: 100%;

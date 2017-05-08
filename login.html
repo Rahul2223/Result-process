@@ -29,17 +29,17 @@
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login.html">Login</a></li>
-       <li><a href="register.html">Register</a></li>
-       <li><a href="teacher.html">Teacher</a></li>
+       <li><a href="register.html">Teacher Registration</a></li>
+       <li><a href="stdreg.html">Student Registration</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<div class="container">
-<!--	<div class="row">
-	    <div class="col-lg-6"  > -->
+<!--<div class="container">
+	<div class="row">
+	    <div class="col-lg-6"  > 
 		
 		
 	    <form class="form-inline">  
@@ -60,9 +60,39 @@
 		<span class="psw">Forget <a href="#">password? </a></span>
         </form>
 	    	
-	    </div>	
+	    </div>	-->
 	<!--</div>
 </div> -->
+<div class="container" id="container1">
+    <div class="col-md-6 col-md-offset-3" id="colorDiv">
+        <div class="col-md-6 col-md-offset-3" id="innerDiv">
+            <div class="page-header">
+                <h3>Log in</h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="userInput">Username or E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="passwordConfirm">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                   <!-- <small><a href="#" id="frgPass">Forgot password?</a></small> -->
+                   <span class="psw"> <a href="#">Forget password? </a></span>
+                </div>
+                <div class="checkbox">
+                 <label>
+                 <input type="checkbox"> Remember me
+                 </label>  
+               </div>
+               <button type="submit" id="submitBtn">Log in</button>
+            </form>
+            
+            
+                       
+        </div>
+    </div>    
+</div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript"src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
 	
