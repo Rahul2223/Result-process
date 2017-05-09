@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/css/bootstrap.min.css">
+  <script src="css/js/jquery.min.js"></script>
+  <script src="css/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="app.css">
+      <script type="text/javascript" src="css/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="css/js/bootstrap.min.js"> </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="app.css">
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+<style type="text/css">
+  
+  .style{
+    border:0px solid #ccc;
+    margin-top: 40px;
+
+  }
+</style>
 </head>
 <body>
 
@@ -42,7 +53,100 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+  
+
+  <!-- Modal -->
+  
+  
+
+
+
 <div class="container">
+  <div class="col-md-12" style="background-color: #FFFFFF;padding-top: 20px;">
+   <div class="col-md-6">
+   <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Student Information</h4>
+        </div>
+        <div class="modal-body">
+          
+
+          <form role="form">
+                <div class="row">
+                 
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                    <label>Class roll</label>
+                      <input type="text" name="class roll" id="class_roll" class="form-control input-sm" placeholder="Class roll">
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                    <label>Full name</label>
+                      <input type="text" name="fullname" id="first_name" class="form-control input-sm" placeholder="Full Name">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                    <label>Father's Name</label>
+                      <input type="text" name="fname" id="fname" class="form-control input-sm" placeholder="Fathers Name">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                 <label>Mother's Name</label>
+                  <input type="text" name="mname" id="mname" class="form-control input-sm" placeholder="Mothers name">
+                </div>
+
+                
+                    <div class="form-group">
+                      <!-- <input type="" name="password" id="password" class="form-control input-sm" placeholder="Password"> -->
+                      <label>Addrss</label>
+                      <textarea class="form-control "> </textarea>
+                    </div>
+                  
+                
+                <div class="btn btn-danger btn-block"><a class="btn-danger" href="success.html"> Submit</a> </div>
+              
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#myModal">Add Students</button>
+      <!-- <div class="btn btn-danger">Add Student</div> --><br><br>
+      </div>
+        <div class="col-md-3">
+          <label>Previous year student Info</label>
+        </div>
+          <div class="col-md-3">
+            <select class="form-control">
+              <option>2010</option>
+              <option>2011</option>
+              <option>2012</option>
+              <option>2013</option>
+              <option>2014</option>
+              <option>2015</option>
+
+
+            </select>
+         </div>
+         <div class="style"></div>
+     </div>
+     <div class="style"></div>
+     <br>
+     <br>
   <table class="table table-bordered" style="background: #fff;">
     <thead>
       <tr>
@@ -63,47 +167,7 @@
   <td>aaaaaa</td>
   <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
 
-</tr>
- <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
-  <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
 
-</tr> <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
-  <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
-
-</tr> <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
-  <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
-
-</tr> <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
-  <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
-
-
-</tr> <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
-  <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
 
 </tr>
     </tbody>
