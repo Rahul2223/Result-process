@@ -20,6 +20,13 @@
 
   }
 </style>
+<style>
+  
+   #special{
+    background-position: left;
+   }
+</style>
+  
 </head>
 <body>
 
@@ -62,8 +69,10 @@
 
 
 <div class="container">
+
+                    
   <div class="col-md-12" style="background-color: #FFFFFF;padding-top: 20px;">
-   <div class="col-md-6">
+   <div class="col-md-3">
    <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -127,6 +136,13 @@
 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#myModal">Add Students</button>
       <!-- <div class="btn btn-danger">Add Student</div> --><br><br>
       </div>
+          
+         <div class="col-md-2">
+         
+           <input id="special"  class="form-control" type="text" name="search" style="text-align: center;" placeholder=" Search..">
+
+         </div>
+
         <div class="col-md-3">
           <label>Previous year student Info</label>
         </div>
@@ -142,52 +158,42 @@
 
             </select>
          </div>
+
          <div class="style"></div>
      </div>
      <div class="style"></div>
      <br>
      <br>
   <table class="table table-bordered" style="background: #fff;">
+   <div class="col-md-3">
+                     
+            
     <thead>
       <tr>
          <th>Class roll</th>
         <th>Full Name</th>
         <th>Father's Name</th>
         <th>Mother's Name</th>
+        <th>Date of Birth</th>
         <th>Address</th>
-        <th>edit</th>
+        <th>Edit</th>
       </tr>
     </thead>
     <tbody>
     <tr>
-  <td>1</td>
-  <td>ashok</td>
-  <td>dd</td>
-  <td>ddss</td>
-  <td>aaaaaa</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
   <td><div class="btn btn-danger btn-block"><a class="btn-danger" href="edit.html">Edit</a></div></td>
 
 
 
 </tr>
     </tbody>
-    <!--<tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody> -->
+    
   </table>
 </div>
 
